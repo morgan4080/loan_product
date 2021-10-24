@@ -227,25 +227,14 @@ export default Vue.extend({
       loanProducts: [
         {
           id: 1,
-          product: 'prod1',
-          status: 'active',
-          loans: 'lo1',
-          customers: 'cust1',
-          customer_categories: 'cat1',
-          activated: 'true',
-          weight: 'weight1',
-          action: 'act1'
-        },
-        {
-          id: 1,
-          product: 'prod1',
-          status: 'active',
-          loans: 'lo1',
-          customers: 'cust1',
-          customer_categories: 'cat1',
-          activated: 'true',
-          weight: 'weight1',
-          action: 'act1'
+          product: null,
+          status: null,
+          loans: null,
+          customers: null,
+          customer_categories: null,
+          activated: null,
+          weight: null,
+          action: null
         }
       ]
     }
