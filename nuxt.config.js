@@ -1,10 +1,10 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  /*target: 'static',*/
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'loanProduct',
+    title: 'Loan Products',
     htmlAttrs: {
       lang: 'en'
     },
@@ -15,7 +15,38 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com'
+      },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css'
+      }
+    ],
+    script: [
+      {
+        src: 'https://code.jquery.com/jquery-3.5.1.min.js'
+      },
+      {
+        src: 'https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js'
+      },
+      {
+        src: 'https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js'
+      }
     ]
   },
 
